@@ -1,9 +1,17 @@
 import React, { Component } from "react";
 
-class App extends Component {
+class Home extends Component {
   render() {
-    return
+    return (
+        <div className="container">
+          <div className="row">
+              <div className="col-12">
+                  <h1>Day la trang chu</h1>
+              </div>
+          </div>
+        </div>
+    )
   }
 }
 
-export default App();
+export default Home;

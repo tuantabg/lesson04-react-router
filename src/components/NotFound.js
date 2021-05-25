@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 
-class About extends Component {
+class NotFound extends Component {
   render() {
     return (
-        <div>
-          Day la trang gioi thieu ve chung toi
-        </div>
+        <h1 className="text-center"> 404 - Không tìm thấy trang web </h1>
     )
   }
 }
 
-export default About;
+export default NotFound;
